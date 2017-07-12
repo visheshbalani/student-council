@@ -1,0 +1,13 @@
+<template name="membersList">
+	<div class="members page">
+	<h1 class="text-center the-council">The Students' Council</h1>
+	<hr />
+	<br />
+		{{#each members}}
+			{{> memberItem}}
+		{{/each}}
+	<br />
+	<hr />
+	<!--{{> footer}}-->
+	</div>
+</template>

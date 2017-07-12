@@ -1,0 +1,86 @@
+<template name="memberItem">
+    <div class="member">
+        {{#if Prez}}
+        <div class="member-content">
+            
+            <img src="{{image}}.jpg" />
+            <br />
+            <h5 class="name">{{name}}</h5>
+            <span class="department"><strong>{{position}}, {{department}}</strong></span>
+            <br />
+            <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
+            <br />
+            <span class="text-muted">{{year}}</span>
+        </div>
+        <!--{{/if}}-->
+
+        {{else if VicePrez}}
+        <div class="member-content col-md-3">
+            
+            <img src="{{image}}.jpg" class="img-responsive" />
+            <br />
+            <h5 class="name">{{name}}</h5>
+            <span class="department"><strong>{{position}}, {{department}}</strong></span>
+            <br />
+            <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
+            <br />
+            <span class="text-muted">{{year}}</span>
+        </div>
+        
+        {{else if StudentAffairs}}
+        <div class="member-content col-md-3">
+            
+            <img src="{{image}}.jpg" class="img-responsive" />
+            <br />
+            <h5 class="name">{{name}}</h5>
+            <span class="department"><strong>{{position}}, {{department}}</strong></span>
+            <br />
+            <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
+            <br />
+            <span class="text-muted">{{year}}</span>
+        </div>
+
+        {{else if ExternalAffairs}}
+        <div class="member-content col-md-3">
+            
+            <img src="{{image}}.jpg" class="img-responsive" />
+            <br />
+            <h5 class="name">{{name}}</h5>
+            <span class="department"><strong>{{position}}, {{department}}</strong></span>
+            <br />
+            <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
+            <br />
+            <span class="text-muted">{{year}}</span>
+        </div>
+       
+        {{else if StudentActivities}}
+        <div class="member-content col-md-3">
+            
+            <img src="{{image}}.jpg" class="img-responsive" />
+            <br />
+            <h5 class="name">{{name}}</h5>
+            <span class="department"><strong>{{position}}, {{department}}</strong></span>
+            <br />
+            <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
+            <br />
+            <span class="text-muted">{{year}}</span>
+        </div>
+        
+        {{else if Academics}}
+        <div class="member-content col-md-3">
+            
+            <img src="{{image}}.jpg" class="img-responsive" />
+            <br />
+            <h5 class="name">{{name}}</h5>
+            <span class="department"><strong>{{position}}, {{department}}</strong></span>
+            <br />
+            <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
+            <br />
+            <span class="text-muted">{{year}}</span>
+        </div>
+
+        {{/if}}
+    </div>
+</template>
+<!--        <h3 class="text-center">Student Affairs</h3>
+-->

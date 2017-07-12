@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #f0f0f0;
+}
+
+.members {
+	margin-bottom: 10px;
+}
+.page {
+
+}
+
+.member {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.member-content {
+	/*border: 1px blue dashed;*/
+	margin: auto;
+	text-align: center;
+	padding: auto;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: auto;
+	/*border: 2px dotted lightblue;*/
+}
+
+.department {
+	font-family: 'Zilla Slab', serif;
+	font-size: 16px;
+	/*border: 1px dotted #434343;*/
+}
+
+img {
+	height: 220px;
+	width: 220px;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.the-council {
+	font-family: 'Zilla Slab', serif;
+	font-size: 44px;
+}
