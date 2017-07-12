@@ -1,0 +1,31 @@
+<template name="Header">
+
+    <head>
+        <link rel="icon" sizes="32x32" href="/favicon.ico">
+    </head>
+
+    <nav class="navbar navbar-inverse bg-primary" role="navigation">
+   	<div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">NSIT SAC</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home<span class="sr-only"></span></a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Departments<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/StudentAffairs">Student Affairs</a></li>
+                <li><a href="/ExternalAffairs">External Affairs</a></li>
+                <li><a href="/StudentActivities">Student Activities</a></li>
+                <li><a href="/AcademicAffairs">Academic Affairs</a></li>
+            </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Initiatives<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/How">How To's</a></li>
+            </ul>
+            </li>
+            <li class="active"><a href="/Members">Members</a></li>
+        </ul>
+        </div>
+    </nav>
+</template>
