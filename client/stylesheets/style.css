@@ -26,6 +26,17 @@ body {
 	padding: auto;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
+	
+}
+
+.member-content-2 {
+	/*border: 1px blue dashed;*/
+	margin: auto;
+	text-align: center;
+	padding: auto;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border: 2px dashed white;
 }
 
 .name {
@@ -40,6 +51,10 @@ body {
 	font-family: 'Zilla Slab', serif;
 	font-size: 16px;
 	/*border: 1px dotted #434343;*/
+}
+
+.description {
+	font-size: 12px;
 }
 
 img {

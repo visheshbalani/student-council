@@ -1,10 +1,11 @@
 <template name="memberItem">
     <div class="member">
         {{#if Prez}}
-        <div class="member-content">
+        <div id="click" class="member-content">
             <img src="{{image}}.jpg" />
             <br />
-            <h5 class="name">{{name}}</h5>
+            <h5 class="name" data-toggle="collapse" data-target="#demo{{active}}">{{name}}</h5>
+            <span class="description collapse" id="demo{{active}}">"{{description}}"<br /></span>
             <span class="department"><strong>{{position}}, {{department}}</strong></span>
             <br />
             <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
@@ -17,7 +18,8 @@
         <div class="member-content col-md-3">
             <img src="{{image}}.jpg" class="img-responsive" />
             <br />
-            <h5 class="name">{{name}}</h5>
+            <h5 class="name" data-toggle="collapse" data-target="#demo{{active}}">{{name}}</h5>
+            <span class="description collapse" id="demo{{active}}">"{{description}}"<br /></span>
             <span class="department"><strong>{{position}}, {{department}}</strong></span>
             <br />
             <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
@@ -29,7 +31,8 @@
         <div class="member-content col-md-3">
             <img src="{{image}}.jpg" class="img-responsive" />
             <br />
-            <h5 class="name">{{name}}</h5>
+            <h5 class="name" data-toggle="collapse" data-target="#demo{{active}}">{{name}}</h5>
+            <span class="description collapse" id="demo{{active}}">"{{description}}"<br /></span>
             <span class="department"><strong>{{position}}, {{department}}</strong></span>
             <br />
             <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
@@ -41,7 +44,8 @@
         <div class="member-content col-md-3">
             <img src="{{image}}.jpg" class="img-responsive" />
             <br />
-            <h5 class="name">{{name}}</h5>
+            <h5 class="name" data-toggle="collapse" data-target="#demo{{active}}">{{name}}</h5>
+            <span class="description collapse" id="demo{{active}}">"{{description}}"<br /></span>
             <span class="department"><strong>{{position}}, {{department}}</strong></span>
             <br />
             <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
@@ -53,7 +57,8 @@
         <div class="member-content col-md-3">
             <img src="{{image}}.jpg" class="img-responsive" />
             <br />
-            <h5 class="name">{{name}}</h5>
+            <h5 class="name" data-toggle="collapse" data-target="#demo{{active}}">{{name}}</h5>
+            <span class="description collapse" id="demo{{active}}">"{{description}}"<br /></span>
             <span class="department"><strong>{{position}}, {{department}}</strong></span>
             <br />
             <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>
@@ -65,7 +70,8 @@
         <div class="member-content col-md-3">
             <img src="{{image}}.jpg" class="img-responsive" />
             <br />
-            <h5 class="name">{{name}}</h5>
+            <h5 class="name" data-toggle="collapse" data-target="#demo{{active}}">{{name}}</h5>
+            <span class="description collapse" id="demo{{active}}">"{{description}}"<br /></span>
             <span class="department"><strong>{{position}}, {{department}}</strong></span>
             <br />
             <a href="mailto:{{email}}?Subject=Student%20Council%20Website%20Mail">{{email}}</a>

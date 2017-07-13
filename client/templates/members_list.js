@@ -80,7 +80,7 @@ var CouncilMembers = [
 	branch: "MPAE",
 	year: 2018,
 	image: "images/small/ishaan",
-	description: "",
+	description: "Lorem Ipsum #MVP",
 	active: 1
 },
 {
@@ -93,7 +93,7 @@ var CouncilMembers = [
 	year: 2018,
 	image: "images/small/jayati",
 	description: "",
-	active: 1
+	active: 2
 },
 {
 	name: "Mohit Munjal",
@@ -104,8 +104,8 @@ var CouncilMembers = [
 	branch: "COE",
 	year: 2018,
 	image: "images/small/mohit",
-	description: "",
-	active: 1
+	description: "Stories worth sharing",
+	active: 3
 },
 {
 	name: "Priyam Sarpal",
@@ -117,7 +117,7 @@ var CouncilMembers = [
 	year: 2018,
 	image: "images/small/priyam",
 	description: "",
-	active: 1
+	active: 4
 },
 {
 	name: "Ankush Babbar",
@@ -129,7 +129,7 @@ var CouncilMembers = [
 	year: 2018,
 	image: "images/small/ankush",
 	description: "",
-	active: 1
+	active: 5
 },
 {
 	name: "Nikita Chawla",
@@ -141,7 +141,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/nikita",
 	description: "",
-	active: 1
+	active: 6
 },
 {
 	name: "Varshika Gambhir",
@@ -153,7 +153,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/varshika",
 	description: "",
-	active: 1
+	active: 7
 },
 {
 	name: "Anuj Juneja",
@@ -165,7 +165,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/anuj",
 	description: "",
-	active: 1
+	active: 8
 },
 {
 	name: "Harshit Luthra",
@@ -177,7 +177,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/harshit",
 	description: "",
-	active: 1
+	active: 9
 },
 {
 	name: "Tanvi Sharma",
@@ -189,7 +189,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/tanvi",
 	description: "",
-	active: 1
+	active: 10
 },
 {
 	name: "Shantanu Agrawal",
@@ -201,7 +201,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/shantanu",
 	description: "",
-	active: 1
+	active: 11
 },
 {
 	name: "Vishesh Balani",
@@ -212,8 +212,8 @@ var CouncilMembers = [
 	branch: "ICE",
 	year: 2019,
 	image: "images/small/vishesh",
-	description: "",
-	active: 1
+	description: "Wants to bring Ultimate to NSIT and make ICE's song ice ice baby! He also made this website",
+	active: 12
 },
 {
 	name: "Rashmi Gehi",
@@ -225,7 +225,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/rashmi",
 	description: "",
-	active: 1
+	active: 13
 },
 {
 	name: "Manik Kapoor",
@@ -237,7 +237,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/manik",
 	description: "",
-	active: 1
+	active: 14
 },
 {
 	name: "Ishan Ambardar",
@@ -249,7 +249,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/ishan",
 	description: "",
-	active: 1
+	active: 15
 },
 {
 	name: "Aditya Barthwal",
@@ -261,7 +261,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/aditya",
 	description: "",
-	active: 1
+	active: 16
 },
 {
 	name: "Amogh Hassija",
@@ -273,7 +273,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/amogh",
 	description: "",
-	active: 1
+	active: 17
 },
 {
 	name: "Shivin Saluja",
@@ -285,7 +285,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/shivin",
 	description: "",
-	active: 1
+	active: 18
 },
 {
 	name: "Anurag B. Singh",
@@ -297,7 +297,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/anurag",
 	description: "",
-	active: 1
+	active: 19
 },
 {
 	name: "Udit K. Agarwal",
@@ -309,7 +309,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/udit",
 	description: "",
-	active: 1
+	active: 20
 },
 {
 	name: "Abhishek Arora",
@@ -321,7 +321,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/abhishek",
 	description: "",
-	active: 1
+	active: 21
 },
 {
 	name: "Raina Banerjee",
@@ -333,7 +333,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/raina",
 	description: "",
-	active: 1
+	active: 22
 },
 {
 	//g or g1 email
@@ -346,7 +346,7 @@ var CouncilMembers = [
 	year: 2019,
 	image: "images/small/akshita",
 	description: "",
-	active: 1
+	active: 23
 }
 ];
 
