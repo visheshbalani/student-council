@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab');
 
+/*
+info - light blue 5bc0de
+orange f0ad4e
+success green 5cb85c
+primary blue 0275d8!
+*/
 body {
 	font-family: 'Roboto', sans-serif;
 	/*background: #f0f0f0;*/
 	color: white;
 	background: #282828;
+}
+
+#brand {
+	color: #ffffff;
+}
+
+#brand:hover {
+	color: #f0ad4e;
 }
 
 .members {
